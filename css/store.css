@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Store */
+.main-container{
+    display: flex;
+    margin: 4em;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+.sm-filter{
+    display: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+.sm-filter button{
+    background-color: white;
+    border: none;
+    font-size: 1.3em;
+}
+
+.sm-filter a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+
+.sm-filter .sort{
+    margin-left: 10em;
+}
+
+.main-container .filter{
+    width: 15%;
+}
+
+.main-container .all-products{
+    width: 85%;
+}
+
+/* Filter */
+.filter-modal{
+    margin: 3em 0em 3em 3em;
+}
+
+.filter-modal a div{
+    width: 10em;
+    background-color: #e2e2e2;
+    padding: .7em;
+}
+
+.filter-modal a .active, .filter a .active{
+    border-left: .5em solid black;
+}
+
+.filter a, .filter-modal a{
+    text-decoration: none;
+    color: black;
+}
+
+.filter a div{
+    width: 6em;
+    background-color: #e2e2e2;
+    padding: .7em;
+}
+
+.filter a div:hover{
+    border-left: .5em solid black;
+}
+
+/* Products */
+.products-container{
+    display: flex;
+}
+
+.line{
+    display: flex;
+    width: 50%;
+}
+
+.product{
+    max-width: 50%;
+    margin: .5em;
+    padding: .7em;
+    color: #39393B;
+    border: 1px solid #707070;
+}
+
+.product div{
+    max-width: 13em;
+    min-width: 5.5em;
+    /* height: 10em; */
+}
+
+.product .image{
+    height: 10em;
+}
+
+.product.description{
+    height: 7em;
+}
+
+.product p{
+    font-size: .9em;
+}
+
+.product .price{
+    font-size: 1.7em;
+    font-style: italic;
+    color: #AB977C;
+    font-weight: bold;
+}
+
+.product button{
+    width: 15em;
+    height: 3em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 1rem rgba(0,0,0,.3);
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    h3{
+        font-size: 1em;
+    }
+
+    .main-container{
+        margin: 1em;
+        display: block;
+    }
+
+    .sm-filter{
+        display: flex;
+    }
+
+    /* filter */
+    .main-container .filter{
+        display: none;
+    }
+
+    .main-container .all-products{
+        width: 100%;
+    }
+
+    /* products */
+    .products-container{
+        display: block;
+    }
+
+    .products-main-container h2{
+        text-align: center; 
+    }
+
+    .line{
+        width: 100%;
+    }
+
+    .product{
+        width: 50%;
+        margin: .5rem;
+        padding: 1rem;
+    }
+
+    .product .image{
+        height: 6em;
+    }
+
+    .product.description{
+        height: 11em;
+    }
+
+    .product .description p{
+        font-size: .7em;
+        line-height: 25px;
+    }
+
+    .product .description .price{
+        font-size: 1.3em;
+    }
+
+    .product button{
+        width: 13em;
+        height: 3em;
+        font-size: .6em;
+    }
+}

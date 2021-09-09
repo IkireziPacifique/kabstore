@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #171719;
+}
+
+/* hero section */
+.herosection{
+    display: flex;
+    padding: .5rem 4em;
+}
+
+.herosection div{
+    width: 50%;
+}
+
+.herosection .image{
+    width: 33em;
+    height: 30em;
+    background-image: url(../images/kabstore-ceo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.herosection p{
+    margin: 6em 5em 0em 5em;
+    color: white;
+    border: 1px solid #8C8C8C;
+    padding: 5em 2em;
+    line-height: 2em;
+}
+
+@media only screen and (max-width: 991px) {
+    .herosection{
+        display: block;
+        padding: 1.5em;
+    }
+
+    .herosection div{
+        width: 100%;
+    }
+
+    .herosection .image{
+        width: 30em;
+        height: 20em;
+    }
+    
+    .herosection p{
+        margin: 1em 0em 0em 0em;
+        padding: 2em 2em;
+        line-height: 2em;
+    }
+
+}

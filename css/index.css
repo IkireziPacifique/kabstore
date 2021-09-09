@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html,body{
+    /* overflow-x: hidden; */
+    background-color: #171719;
+}
+
+/* Hero Section */
+.Carousel{
+    width: 100%;
+    background: #171719;
+}
+
+/* Slideshow container */
+.slideshow-container, .slideshow-container-sm {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container-sm{
+    display: none;
+}
+
+/* Hide the images by default */
+.mySlides,.mySlides-sm {
+  display: none;
+}
+
+.slide-lg{
+    display: flex;
+}
+
+/* Content */
+.slide-lg div{
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.mySlides .slide-lg .description{
+    padding: 4em .0em .0em 8em;
+}
+
+.mySlides .description .box1{
+    width: 9em;
+    background-color: #39393B;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.3);
+    color: white;
+    margin-bottom: 5em;
+    padding: 2rem;
+}
+.mySlides .description .box1 p{
+    font-size: .7em;
+}
+
+.mySlides .description .box1 button{
+    background-color: #171719;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.3);
+    width: 10em;
+    height: 2em;
+    color: white;
+    border-style: none;
+}
+
+.mySlides .description .box2{
+    width: 11em;
+    height: 5em;
+    background:url(../images/slide-descr.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mySlides .image{
+    padding: 1em 8em 0em 0em;
+}
+
+.mySlides .image div{
+    width: 33em;
+    height: 29em;
+}
+
+/* sm-screen */
+.slide-sm{
+    display: none;
+}
+
+.slide-sm .image div{
+    width: 19em;
+    height: 15em;
+}
+
+.slide-sm .description{
+    color: #707070;
+    text-align: center;
+}
+
+.slide-sm .description h5{
+    font-size: 2em;
+}
+.slide-sm .description button{
+    width: 17em;
+    height: 4em;
+    background-color: #AB977C;
+    color: white;
+    border-style: none;
+}
+
+.slide-sm .description .box2{
+    width: 15em;
+    height: 5em;
+    margin-left: 4em;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #707070;
+    /* font-weight: lighter; */
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dots{
+    text-align:right;
+    margin: 0em 5em 2em 0em;
+}
+.dot, .dotsm {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgba(0,0,0,0);;
+  border: 1px solid grey;
+  /* border-radius: 50%; */
+  display: inline-block;
+  transition: #bbb 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:#838384;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/* available in the store */
+.products-main-container{
+    padding: 1rem;
+}
+
+.products-main-container h2{
+    color: white;
+    font-size: 2em;
+    margin-left: .5em;
+}
+
+.products-container{
+    display: flex;
+}
+
+.line{
+    display: flex;
+    width: 50%;
+}
+
+.product{
+    max-width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: white;
+    border: 1px solid #707070;
+}
+
+.product div{
+    max-width: 13em;
+    min-width: 5.5em;
+    /* height: 10em; */
+}
+
+.product .image{
+    height: 10em;
+}
+
+.product.description{
+    height: 7em;
+}
+
+.product p{
+    font-size: .9em;
+}
+
+.product .price{
+    font-size: 1.7em;
+    font-style: italic;
+    color: #AB977C;
+    font-weight: bold;
+}
+
+.product button{
+    width: 15em;
+    height: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+.products-main-container .more-products{
+    text-decoration: none;
+    margin: 5em;
+}
+
+.products-main-container .more-products div{
+    width: 3em;
+    padding: .5em;
+    background-color: white;
+    text-decoration: none;
+    color: #171719;
+    margin-left: 72em;
+}
+
+/* description */
+.kabstore-deliver{
+    background-color: white;
+    display: flex;
+    padding: 5em;
+}
+
+.kabstore-deliver div{
+    width: 50%;
+}
+
+.kabstore-deliver p{
+    font-size: 4em;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.kabstore-deliver .image{
+    width: 30em;
+    height: 20em;
+    background: url(../images/delivery\ motor.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+    h3{
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+    /* Slideshow */
+    .slideshow-container{
+        padding: .5em;
+    }
+    .mySlides .image{
+        padding: 1em 0em 0em 2em;
+    }
+
+    .slide-lg{
+        display: none;
+    }
+
+    .slide-sm{
+        display: block;
+    }
+
+    .prev, .next {
+        top: 50%;
+        margin-top: -22px;
+        padding: 0px;
+        font-size: 2em;
+    }
+
+    .dots{
+        text-align:center;
+        margin: 0em;
+    }
+
+    /* available in store */
+    .products-container{
+        display: block;
+    }
+
+    .products-main-container h2{
+        text-align: center; 
+    }
+
+    .line{
+        width: 100%;
+    }
+
+    .product{
+        width: 50%;
+        margin: .5rem;
+        padding: 1rem;
+    }
+
+    .product .image{
+        height: 6em;
+    }
+
+    .product.description{
+        height: 11em;
+    }
+
+    .product .description p{
+        font-size: .7em;
+        line-height: 25px;
+    }
+
+    .product .description .price{
+        font-size: 1.3em;
+    }
+
+    .product button{
+        width: 13em;
+        height: 3em;
+        font-size: .6em;
+    }
+
+    /* view more */
+    .products-main-container .more-products div{
+        padding: .1em;
+        margin-left: 18em;
+    }
+    
+
+    /* description */
+    .kabstore-deliver{
+        padding: 1em;
+    }
+
+    .kabstore-deliver .image{
+        width: 20em;
+        height: 8em;
+    }
+
+    .kabstore-deliver p{
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 1.5em 1em;
+    }
+}
