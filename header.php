@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en"> 
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,16 +9,10 @@
 <body>
     <!-- navigation bar -->
     <!-- lg-screen -->
-    <nav class="navbar">
+    <nav class="navbar">      
         <div class="logo">
             <a href="index.html"><img src="images/favicon.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
         </div>
-
-        <!-- <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a> -->
 
         <div class="navbar-links">
             <ul class="navmenu">
@@ -50,17 +44,22 @@
 
         <div class="navbar-links">
             <ul class="navmenu">
+                <li><a href=""><input type="text" placeholder=" search anything"><span class="fas fa-search"></span></a></li><br>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="store.php">Store</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href=""><i class="fas fa-search"></i></a></li>
             </ul>
         </div>
 
-        <a href="">
-            <i class="fas fa-shopping-bag"></i>
-        </a>
+        <!-- <a href="cart-sm"> -->
+            <span class="fas fa-shopping-bag"></span>
+        <!-- </a> -->
+
     </nav>
+
+    <!-- link to js doc -->
+    <script src="js/header.js"></script>
+
 </body>
 </html>
