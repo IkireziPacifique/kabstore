@@ -13,27 +13,31 @@
     width: 3em;
 }
 
-.navbar-links {
+.navbar-links, .navbar-link {
 	height: 100%;
     display: flex;
 }
 
-.navbar-links ul {
+.navbar-links ul{
     display: flex;
 	/* margin: 0;
 	padding: 0; */
 }
 
-.navbar-links li {
+.navbar-links li, .navbar-link li {
 	list-style: none;
 }
 
-.navbar-links li a {
+.navbar-links li a, .navbar-link li a {
 	display: block;
 	text-decoration: none;
 	color: #707070;
 	padding: 1rem;
     position: relative;
+}
+
+.navbar-links li a:active{
+    color: #d3d3d3;
 }
 
 .navmenu{
@@ -53,16 +57,30 @@
     color: #DEDEDE;
 }
 
+/* sm screen navbar */
 .sm-navbar{
     display: none;
-    justify-content: space-between;
     padding: 1.5em;
+    width: auto;
 }
 
-.sm-navbar span{
-    font-size: 1.2em;
+.nav-btns{
+    justify-content: space-between;
+}
+
+.sm-navbar .cart-icon span{
+    font-size: 1.7em;
     color: #707070; 
     /* margin: -1.3em 0em 0em em; */
+}
+
+.search-div a{
+    display: flex;
+}
+
+.search-div a span{
+    /* position: absolute; */
+    margin-left: -2em;
 }
 
 .sm-navbar a input{
@@ -72,8 +90,6 @@
     color: #B2B2B2;
     border: none;
 }
-
-
 
 /* For responsiveness */
 .toggle-button {
@@ -103,6 +119,11 @@
     }
 
     .sm-navbar{
+        display: grid;
+        /* background-color: blanchedalmond; */
+    }
+
+    .nav-btns{
         display: flex;
     }
 
@@ -123,26 +144,36 @@
         transform: translateY(-9px) rotate(-45deg);
     }
 
-    .navbar-links {
+    .logo{
+        width: 3em;
+        height: 3em;
+    }
+
+    .sm-navbar .navbar-link {
         display: none;
-        width: 110%;
+        background-color: rgba(0,0,0,0);;
     }
     
-    .navbar-links ul {
+    .navbar-link ul {
         width: 100%;
         flex-direction: column;
         transition: 0.3s;
     }
     
-    .navbar-links ul li {
+    .navbar-link ul li {
         text-align: center;
     }
     
-    .navbar-links ul li a {
+    .navbar-link ul li a {
         padding: .5rem 1rem;
     }
+
+    .navmenu{
+        margin-right: 0em;
+    }
     
-    .navbar-links.active {
+    .sm-navbar .navbar-link.active {
         display: flex;
     }
+    
 }

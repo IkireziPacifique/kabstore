@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Product and Description */
+.main-container{
+    display: flex;
+    padding: 4em;
+}
+
+.main-container div{
+    width: 50%;
+}
+
+/* product images */
+.main-container .product{
+    display: flex;
+}
+
+.main-container .product .product-images{
+    width: 30%;
+}
+
+.main-container .product .product-image{
+    width: 70%;
+}
+
+.main-container .product-images .images{
+    width: 3.5em;
+    height: 4em;
+    border: .1em solid grey;
+    padding: 1em;
+}
+
+.main-container .product-image .image{
+    width: 20em;
+    height: 25em;
+    border: .1em solid grey;
+    padding: 1em;
+}
+
+/* Description */
+.colors{
+    display: flex;
+}
+
+.colors div{
+    width: .8em;
+    height: .8em;
+    margin: .5em;
+    border: .2em solid white;
+    border-radius: 50%;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+/* number of products */
+.product-no{
+    display: flex;
+}
+
+.product-no button{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 2em;
+}
+
+.product-no p{
+    border: .1em solid grey;
+    padding: .4em .6em;
+}
+
+.add-cart button{
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Features */
+.features{
+    display: flex;
+}
+
+.features div{
+    width: 50%;
+}
+
+.features button{
+    padding: 0em 1em 2em 1em;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: .2em solid black;
+}
+
+.features ul{
+    list-style: none;
+}
+
+/* available in the store */
+.products-main-container{
+    padding: 1rem;
+}
+
+.products-main-container h2{
+    font-size: 2em;
+    margin-left: .5em;
+}
+
+.products-main-container .products-container{
+    display: flex;
+}
+
+.products-main-container .line{
+    display: flex;
+    width: 50%;
+}
+
+.products-main-container .product{
+    max-width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid #707070;
+}
+
+.products-main-container .product div{
+    max-width: 13em;
+    min-width: 5.5em;
+    /* height: 10em; */
+}
+
+.products-main-container .product .image{
+    height: 10em;
+}
+
+.products-main-container.product.description{
+    height: 7em;
+}
+
+.products-main-container .product p{
+    font-size: .9em;
+}
+
+.products-main-container .product .price{
+    font-size: 1.7em;
+    font-style: italic;
+    color: #AB977C;
+    font-weight: bold;
+}
+
+.products-main-container .product button{
+    width: 15em;
+    height: 3em;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.products-main-container .more-products{
+    text-decoration: none;
+    margin: 5em;
+}
+
+.products-main-container .more-products div{
+    width: 3em;
+    padding: .5em;
+    background-color: #171719;
+    text-decoration: none;
+    color: white;
+    margin-left: 72em;
+}

@@ -17,10 +17,10 @@
             <div>
                 <h4>Quick links</h4><br>
                 <ul class="page-links">
-                    <li><a href="">Home</a></li><br>
-                    <li><a href="">About</a></li><br>
-                    <li><a href="">Store</a></li><br>
-                    <li><a href="">Contact</a></li><br>
+                    <li><a href="index.php">Home</a></li><br>
+                    <li><a href="about.php">About</a></li><br>
+                    <li><a href="store.php">Store</a></li><br>
+                    <li><a href="contact.php">Contact</a></li><br>
                     <!-- <li><a href="">Bag</a></li> -->
                 </ul>
             </div>
@@ -53,10 +53,10 @@
                 <div>
                     <h4>Quick links</h4><br>
                     <ul class="page-links">
-                        <li><a href="">Home</a></li><br>
-                        <li><a href="">About</a></li><br>
-                        <li><a href="">Store</a></li><br>
-                        <li><a href="">Contact</a></li><br>
+                        <li><a href="index.php">Home</a></li><br>
+                        <li><a href="about.php">About</a></li><br>
+                        <li><a href="store.php">Store</a></li><br>
+                        <li><a href="contact.php">Contact</a></li><br>
                         <!-- <li><a href="">Bag</a></li> -->
                     </ul>
                 </div>
