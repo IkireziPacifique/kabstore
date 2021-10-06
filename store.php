@@ -12,7 +12,7 @@
 
 <body>
     <!-- Navigation bar -->
-    <?php include 'header.php' ?>
+    <?php include 'headerW.php' ?>
 
     <!-- Store -->
     <div class="main-container">
@@ -242,7 +242,7 @@
     </div>
 
     <!-- footer -->
-    <?php include 'footer.php' ?>    
+    <?php include 'footerW.php' ?>    
 
     <!-- link to js doc -->
     <script src="js/store.js"></script>

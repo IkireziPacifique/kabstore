@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -42,7 +42,7 @@
                         <div>
                             <img src="images/slide1.png" alt="" width="100%" height="100%">
                         </div>
-                    </div><br><br>
+                    </div><br>
 
                     <div class="description">
                         <h2>iPhone 11 Refurnished</h2><br>
@@ -171,7 +171,7 @@
                 <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
-    </div><br><br>
+    </div>
 
     <!-- sm screen -->
     <!-- <div class="sm-Carousel">
@@ -180,68 +180,89 @@
 
     <!-- available in the store -->
     <div class="products-main-container"> 
-        <h2>Available in store</h2><br>
+        <h2>Available in store</h2>
         <div class="products-container">
+
             <div class="line">
                 <div class="product">
                     <div class="image">
                         <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
 
                 <div class="product">
                     <div class="image">
-                        <img src="images/onePlus Nors.jpeg" alt="" width="100%" height="100%">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
             </div><br><br>
 
             <div class="line">
                 <div class="product">
                     <div class="image">
-                        <img src="images/s21 ultra.jpeg" alt="" width="100%" height="100%">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
 
                 <div class="product">
                     <div class="image">
-                        <img src="images/airpods max.jpeg" alt="" width="100%" height="100%">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
             </div>
         </div>
 
         <a href="" class="more-products">
             <div>
-                <p>More</p>
-                <p>&#x2192;</p>
+                <p>More</p>&nbsp;&nbsp;
+                <p class="arrow">&#x2192;</p>
             </div>
         </a>
-    </div><br><br><br>
+    </div>
 
     <!-- description -->
     <div class="kabstore-deliver">
@@ -253,68 +274,89 @@
 
     <!-- phones -->
     <div class="products-main-container"> 
-        <h2>Phones</h2><br>
+        <h2>Phones</h2>
         <div class="products-container">
+
+            <div class="line">
+            <div class="product">
+                <div class="image">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
+                    </div><br>
+                    <div class="description">
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
+                        <p class="price">$500</p>
+                    </div><br>
+                    <button>View Item</button>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
+                    </div><br>
+                    <div class="description">
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
+                        <p class="price">$500</p>
+                    </div><br>
+                    <button>View Item</button>
+                </div>
+            </div><br><br>
+
             <div class="line">
                 <div class="product">
                     <div class="image">
                         <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
 
                 <div class="product">
                     <div class="image">
-                        <img src="images/onePlus Nors.jpeg" alt="" width="100%" height="100%">
+                        <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
+                        <section>
+                            <a href="" class="icon"><i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-eye"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a href="" class="icon"><i class="fas fa-heart"></i></a>
+                        </section>
                     </div><br>
                     <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
+                        <h3>Apple Watch s6 | 128GB | Gray Space | Fully Unlocked</h3>
+                        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br> -->
                         <p class="price">$500</p>
                     </div><br>
-                    <button>Add to bag</button>
-                </div>
-            </div>
-
-            <div class="line">
-                <div class="product">
-                    <div class="image">
-                        <img src="images/s21 ultra.jpeg" alt="" width="100%" height="100%">
-                    </div><br>
-                    <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
-                        <p class="price">$500</p>
-                    </div><br>
-                    <button>Add to bag</button>
-                </div>
-
-                <div class="product">
-                    <div class="image">
-                        <img src="images/airpods max.jpeg" alt="" width="100%" height="100%">
-                    </div><br>
-                    <div class="description">
-                        <h3>Apple Watch s6</h3><br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
-                        <p class="price">$500</p>
-                    </div><br>
-                    <button>Add to bag</button>
+                    <button>View Item</button>
                 </div>
             </div>
         </div>
 
         <a href="" class="more-products">
             <div>
-                <p>More</p>
-                <p>&#x2192;</p>
+                <p>More</p>&nbsp;&nbsp;
+                <p class="arrow">&#x2192;</p>
             </div>
         </a>
-    </div><br><br><br>
+    </div>  
 
     <!-- footer -->
     <?php include 'footer.php' ?>

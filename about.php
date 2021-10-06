@@ -14,6 +14,19 @@
     <!-- Navigation bar -->
     <?php include 'header.php' ?>
 
+    <!-- About Kabstore -->
+    <div class="about">
+        <br><br><h2>KABSTORE IS HERE FOR ...</h2><br><br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five. Lorem Ipsum has been the
+            industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five/Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+        </p><br><br><br>
+    </div>
+
     <!-- hero section -->
     <div class="herosection">
         <div>
@@ -24,7 +37,10 @@
                 industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five </p>
         </div>
-    </div> 
+    </div><br><br>
+    
+    <!-- footer -->
+    <?php include 'footer.php' ?>
 
 </body>
 

@@ -14,10 +14,17 @@
     <!-- Navigation bar --> 
     <?php include 'header.php' ?>
 
+    <!-- Contact Information -->
     <!-- hero section -->
     <div class="herosection">
-        <div>
-            <div class="image"></div>
+        <div class="contact-info">
+            <h3>Contact Us:</h3><br><br>
+                <ul class="contact">
+                    <li>Address: KN 3 AVE, Kigali, Rwanda</li><br>
+                    <li>Phone Number: +250 788 458 897</li><br>
+                    <li>Email Address: y.munezero@gmail.com </li><br>
+                    <li>Address : KN 3 AVE, Kigali, Rwanda</li>
+                </ul>
         </div>
         <div class="form-container">
             <form action="">
@@ -44,7 +51,17 @@
                 <button>Send Message</button>
             </form>
         </div>
-    </div>
+    </div><br><br>
+
+    <div class="store-info">
+        <!-- map  -->
+        <div class="map">
+            <img src="images/phonestore-map.png" width="100%" height="100%">
+        </div>
+    </div><br><br>
+
+    <!-- footer -->
+    <?php include 'footer.php' ?>
 
 </body>
 

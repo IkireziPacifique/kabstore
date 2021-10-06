@@ -6,12 +6,20 @@
     <link rel="stylesheet" href="css/css/all.min.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
+<style>
+    .footer-container{
+        background-color: #f1f1f1;
+    }
+    hr {
+        border: 0.01em solid #d1d1d1;
+    }
+</style>
 <body>
     <div class="footer-container">
         <div class="footer">
             <div>
                 <div class="logo">
-                    <a href="index.html"><img src="images/favicon.png" alt="kabstore-logo" class="logo-container" width="100%"></a>
+                    <a href="index.html"><img src="images/favicon-black.png" alt="kabstore-logo" class="logo-container" width="100%"></a>
                 </div>
             </div>
             <div>

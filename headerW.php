@@ -6,12 +6,27 @@
     <link rel="stylesheet" href="css/css/all.min.css">
     <link rel="stylesheet" href="css/header.css">
 </head>
+<style>
+    .navbar, .sm-navbar{
+        background-color: #f1f1f1;
+    }
+
+    .navbtn .search-bar{
+        background-color: white;
+        color: #f1f1f1;
+    }
+
+    .navbar-links li a:hover, .navbtn i:hover{
+        color: #2C2C2C;
+}
+}
+</style>
 <body>
     <!-- navigation bar -->
     <!-- lg-screen -->
     <nav class="navbar">      
         <div class="logo">
-            <a href="index.php"><img src="images/favicon.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
+            <a href="index.php"><img src="images/favicon-black.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
         </div>
 
         <div class="navbar-links">

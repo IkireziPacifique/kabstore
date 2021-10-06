@@ -1,113 +1,138 @@
-*{
-    margin: 0px;
-    padding: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    background-color: #171719;
+body {
+  background-color: #171719;
+}
+/* Contact Information */
+.store-info {
+  /* display: flex; */
+  padding: 1rem 5rem;
+}
+
+.herosection .contact-info {
+  color: #dfdfdf;
+  padding: 5em 1em 0em 10em;
+}
+
+.herosection .contact-info ul {
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+.store-info .map {
+  width: 65em;
+  height: 20em;
 }
 
 /* hero section */
-.herosection{
-    display: flex;
-    padding: .5em;
+.herosection {
+  display: flex;
+  padding: 0.5em;
 }
 
-.herosection div{
-    width: 50%;
+.herosection div {
+  width: 50%;
 }
 
-.herosection .image{
-    width: 33em;
-    height: 30em;
-    background-image: url(../images/kabstore-contact.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 8em;
+.herosection .image {
+  width: 33em;
+  height: 30em;
+  background-image: url(../images/kabstore-contact.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 8em;
 }
 
-form p{
-    padding: 3em 13em 3em 0em;
+form p {
+  padding: 3em 13em 3em 0em;
 }
 
-form{
-    padding-left: 5em;
+form {
+  padding-left: 0em;
 }
 
-label, p{
-    color: white;
+label,
+p {
+  color: #dfdfdf;
 }
 
-.form-line{
-    display: flex;
-    justify-content: space-between;
+.form-line {
+  display: flex;
+  justify-content: space-between;
 }
 
-.form-line .input2{
-    margin-left: 3em;
+.form-line .input2 {
+  margin-left: 3em;
 }
 
-input{
-    height: 3em;
+input {
+  height: 3em;
 }
 
-input, textarea{
-    border: none;
-    border-bottom: 1px solid #707070;
-    background: rgba(0,0,0,0);
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #707070;
+  background: rgba(0, 0, 0, 0);
 }
 
-button{
-    border-style: none;
-    padding: 1em 3em;
-    background-color: white;
-    color: black;
-    margin-left: 13.5em;
+button {
+  border-style: none;
+  padding: 1em 3em;
+  background-color: white;
+  color: black;
+  margin-left: 13.5em;
 }
 
 @media only screen and (max-width: 991px) {
-    .herosection{
-        display: block;
-        padding: 1em;
-    }
+  .herosection {
+    display: block;
+    padding: 1em;
+  }
 
-    .herosection div{
-        width: 100%;
-    }
+  .herosection div {
+    width: 100%;
+  }
 
-    .herosection .image{
-        width: 21.5em;
-        height: 16em;
-        background-image: url(../images/kabstore-contact-sm.png);
-        margin-left: 0em;
-    }
+  .herosection .image {
+    width: 21.5em;
+    height: 16em;
+    background-image: url(../images/kabstore-contact-sm.png);
+    margin-left: 0em;
+  }
 
-    form p{
-        padding: 0em 0em 1em 0em;
-    }
+  form p {
+    padding: 0em 0em 1em 0em;
+  }
 
-    form{
-        padding-left: 0em;
-    }
+  form {
+    padding-left: 0em;
+  }
 
-    .form-line{
-        display: block;
-    }
+  .form-line {
+    display: block;
+  }
 
-    .form-line .input2{
-        margin-left: 0em;
-    }
+  .form-line .input2 {
+    margin-left: 0em;
+  }
 
-    input{
-        width: 98%;
-    }
+  input {
+    width: 98%;
+  }
 
-    button{
-        border-style: none;
-        padding: 1.5em 3em;
-        background-color: white;
-        color: black;
-        margin-left: 0em;
-        width: 100%;
-    }
+  button {
+    border-style: none;
+    padding: 1.5em 3em;
+    background-color: white;
+    color: black;
+    margin-left: 0em;
+    width: 100%;
+  }
 }
