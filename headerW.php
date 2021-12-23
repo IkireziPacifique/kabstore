@@ -26,7 +26,7 @@
     <!-- lg-screen -->
     <nav class="navbar">      
         <div class="logo">
-            <a href="index.php"><img src="images/favicon-black.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
+            <a href="index.php"><img src="images/favicon-black.png" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
         </div>
 
         <div class="navbar-links">
