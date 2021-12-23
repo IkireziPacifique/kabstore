@@ -56,7 +56,7 @@
     <div class="store-info">
         <!-- map  -->
         <div class="map">
-            <img src="images/phonestore-map.png" width="100%" height="100%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.51448330583!2d30.057394813859123!3d-1.9471878372511506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca42bf956db27%3A0x4ece45bc16223612!2sM%20Peace%20Plaza!5e0!3m2!1sen!2srw!4v1640269181438!5m2!1sen!2srw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div><br><br>
 
