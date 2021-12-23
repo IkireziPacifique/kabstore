@@ -11,7 +11,7 @@
         <div class="footer">
             <div>
                 <div class="logo">
-                    <a href="index.html"><img src="images/favicon.png" alt="kabstore-logo" class="logo-container" width="100%"></a>
+                    <a href="index.html"><img src="images/favicon.PNG" alt="kabstore-logo" class="logo-container" width="100%"></a>
                 </div> 
             </div>
             <div>
