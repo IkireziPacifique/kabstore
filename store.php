@@ -81,7 +81,7 @@
                                 <img src="images/homepod Mini.jpeg" alt="" width="100%" height="100%">
                             </div><br>
                             <div class="description">
-                                <h3>Apple Watch s6</h3><br>
+                                <h3>Iphone 6s</h3><br>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
                                 <p class="price">$500</p>
                             </div><br>
@@ -93,7 +93,7 @@
                                 <img src="images/onePlus Nors.jpeg" alt="" width="100%" height="100%">
                             </div><br>
                             <div class="description">
-                                <h3>Apple Watch s6</h3><br>
+                                <h3>Iphone 12</h3><br>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p><br>
                                 <p class="price">$500</p>
                             </div><br>
@@ -246,6 +246,7 @@
 
     <!-- link to js doc -->
     <script src="js/store.js"></script>
+    <script src="js/header.js"></script>
 </body>
 
 </html>

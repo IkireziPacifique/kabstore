@@ -25,11 +25,11 @@ $(document).ready(function () {
 });
 
 
-// Search
-function booksFilter() {
+// Search 
+function productFilter() {
   let input = document.getElementById('input-search').value
   input = input.toLowerCase();
-  let x = document.getElementsByClassName('book1');
+  let x = document.getElementsByClassName('product');
 
   for (i = 0; i < x.length; i++) {
     if (!x[i].innerHTML.toLowerCase().includes(input)) {

@@ -23,7 +23,7 @@
             </ul>
 
             <ul class="navbtn">
-                <input type="text" placeholder="Search" class="search-bar">
+                <a href="store.php"><input type="text" placeholder="Search" class="search-bar" id="input-search"></a>
                 <i class="fas fa-search search-icon"></i>
                 <i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;
             </ul>
@@ -58,7 +58,7 @@
             <ul class="navmenu">
                 <li class="search-div">
                     <a href="">
-                        <input type="text" placeholder=" search anything">
+                        <a href="store.php"><input type="text" placeholder=" search anything"></a>
                         <span class="fas fa-search"></span>
                     </a>
                 </li><br>

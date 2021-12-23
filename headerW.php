@@ -11,9 +11,9 @@
         background-color: #f1f1f1;
     }
 
-    .navbtn .search-bar{
+    .navbtn .search-bar, .search-div .search-bar{
         background-color: white;
-        color: #f1f1f1;
+        color: #171719;
     }
 
     .navbar-links li a:hover, .navbtn i:hover{
@@ -38,7 +38,7 @@
             </ul>
 
             <ul class="navbtn">
-                <input type="text" placeholder="Search" class="search-bar">
+                <input type="text" onkeyup="productFilter()" placeholder="Search" class="search-bar" id="input-search">
                 <i class="fas fa-search search-icon"></i>
                 <i class="fas fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;
             </ul>
@@ -59,7 +59,7 @@
             
                 
             <div class="logo">
-                <a href="index.php"><img src="images/favicon.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
+                <a href="index.php"><img src="images/favicon-black.PNG" alt="kabstore-logo" class="logo-container" width="100%" height="100%"></a>
             </div>
 
             <!-- <a href="cart-sm"> -->
@@ -72,8 +72,8 @@
         <div class="navbar-link"><br><br>
             <ul class="navmenu">
                 <li class="search-div">
-                    <a href="">
-                        <input type="text" placeholder=" search anything">
+                    <a>
+                        <input type="text" onkeyup="productFilter()" placeholder="search anything" class="search-bar" id="input-search">    
                         <span class="fas fa-search"></span>
                     </a>
                 </li><br>
