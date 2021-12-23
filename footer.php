@@ -12,7 +12,7 @@
             <div>
                 <div class="logo">
                     <a href="index.html"><img src="images/favicon.png" alt="kabstore-logo" class="logo-container" width="100%"></a>
-                </div>
+                </div> 
             </div>
             <div>
                 <h4>Quick links</h4><br>
